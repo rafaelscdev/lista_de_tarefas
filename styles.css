@@ -40,7 +40,7 @@ form textarea {
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    width: calc(100% - 22px); /* Considerando o padding */
+    width: calc(100% - 22px); 
 }
 
 form label {

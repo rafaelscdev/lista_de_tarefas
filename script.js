@@ -1,11 +1,10 @@
 $(document).ready(function() {
-    // Função para atualizar o contador de tarefas
+
     function updateTaskCounter() {
         var taskCount = $('#task-list li').length;
         $('#task-counter b').text(taskCount);
     }
 
-    // Evento de envio do formulário
     $('#task-form').submit(function(e) {
         e.preventDefault();
 
@@ -54,7 +53,7 @@ $(document).ready(function() {
         });
     });
 
-    // Evento de clique nas tarefas para marcar como concluída
+    
     $('#task-list').on('click', 'li', function() {
         $(this).toggleClass('completed');
     });
